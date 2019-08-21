@@ -1,4 +1,4 @@
-bitcoind-rpc.js
+omnicored-rpc.js
 ===============
 
 [![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
@@ -12,7 +12,7 @@ A client library to connect to Bitcoin Core RPC in JavaScript.
 bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc
+npm install omnicored-rpc
 ```
 
 ## Examples
@@ -20,7 +20,7 @@ npm install bitcoind-rpc
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc');
+  var RpcClient = require('omnicored-rpc');
 
   var config = {
     protocol: 'http',
